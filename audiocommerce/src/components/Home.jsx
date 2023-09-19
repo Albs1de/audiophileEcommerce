@@ -9,6 +9,9 @@ const Home = () => {
         Experience natural, lifelike audio and exceptional build quality made
         for the passionate music enthusiast.
       </p>
+      <button className={styles["button-element"]} type="submit">
+        SEE PRODUCT
+      </button>
     </div>
   );
 };
