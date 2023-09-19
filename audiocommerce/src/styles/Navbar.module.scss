@@ -1,0 +1,25 @@
+.navbar {
+  background-color: black;
+  padding: 16px;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+}
+.menu-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  outline: none;
+  font-size: 24px;
+  color: white;
+}
+
+.title,
+.cart-icon {
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+}
