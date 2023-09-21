@@ -1,0 +1,8 @@
+.headphone-container {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center; // Zentriert die Elemente horizontal
+  align-items: center; // Zentriert die Elemente vertikal
+  flex-direction: column; // Legt die Flex-Richtung auf "column" fest
+  margin-top: 80px;
+}
