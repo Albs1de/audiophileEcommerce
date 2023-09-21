@@ -3,7 +3,7 @@ import speakerImage from "../assets/cart/image-zx9-speaker.jpg";
 import earphoneImage from "../assets/cart/image-yx1-earphones.jpg";
 import ProductCard from "./ProductCard";
 import HomeSpeaker from "./HomeSpeaker";
-import styles from "../styles/HomeCategory.module.scss";
+
 const HomeCategory = () => {
   const handleButton = () => {
     console.log("Button Clicked");

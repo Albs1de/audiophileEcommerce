@@ -1,3 +1,43 @@
 .container {
   background-color: #d87d4a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding-bottom: 50px;
+  .p-element,
+  .h2-element {
+    color: white;
+  }
+
+  .h2-element {
+    font-size: 36px;
+    margin-top: -20px;
+    line-height: 40px;
+    letter-spacing: 1.29px;
+    width: 280px;
+    height: 80px;
+    text-align: center;
+  }
+  .p-element {
+    font-size: 15px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: -50px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    width: 280px;
+    height: 75px;
+  }
+  img {
+    width: 172.25px;
+    height: 207px;
+    margin-top: 20px;
+  }
+  button {
+    width: 160px;
+    height: 48px;
+  }
 }
