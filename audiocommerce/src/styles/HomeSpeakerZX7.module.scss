@@ -1,0 +1,26 @@
+.container {
+  background-image: url("../assets/home/mobile/image-speaker-zx7.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 450px;
+
+  .h1-element {
+    color: black;
+    font-size: 28px;
+    padding-top: 100px;
+    padding-left: 40px;
+    letter-spacing: 2px;
+  }
+
+  .button-element {
+    border-radius: 0px;
+    border: solid 1px;
+    background-color: #dfdfdf;
+    font-size: bold 13px;
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 160px;
+  }
+}
