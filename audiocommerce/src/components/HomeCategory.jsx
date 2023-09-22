@@ -4,6 +4,7 @@ import earphoneImage from "../assets/cart/image-yx1-earphones.jpg";
 import ProductCard from "./ProductCard";
 import HomeSpeaker from "./HomeSpeaker";
 import HomeSpeakerZX7 from "./HomeSpeakerZX7";
+import HomeEarphone from "./HomeEarphone";
 
 const HomeCategory = () => {
   const handleButton = () => {
@@ -31,6 +32,7 @@ const HomeCategory = () => {
       />
       <HomeSpeaker />
       <HomeSpeakerZX7 />
+      <HomeEarphone />
     </>
   );
 };

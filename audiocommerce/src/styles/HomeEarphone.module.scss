@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 100vw;
+  .title {
+    font-size: 28px;
+    letter-spacing: 2px;
+    color: black;
+    text-align: center;
+  }
+
+  .btn {
+    border-radius: 0px;
+    border: solid 1px;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+}
